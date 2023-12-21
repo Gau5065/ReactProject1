@@ -1,0 +1,152 @@
+.dashboard-mainbox1{
+    /* border: 2px solid red; */
+    width: 98%;
+    height: 98%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.dasboard-m1b1-row1{
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 98%;
+    margin: 10px auto;
+}
+.dasboard-m1b1-col1{
+    margin: 0px 10px;
+    background-color: rgba(255, 255, 255, 0.853);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+    font-size: 15px;
+}
+.dasboard-m1b1-col1:hover{
+    background-color: wheat;
+    color: green;
+}
+.dasboard-m1b1-col1:hover .dasboard-m1b1-col1-Icon{
+    color: black;
+}
+.dasboard-m1b1-col1-Icon{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    font-size: 90px;
+    color: #ffb245d2;
+}
+.dasboard-m1b1-col2{
+    margin: 0px 10px;
+    background-color: rgba(255, 255, 255, 0.853);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+    font-size: 15px;
+}
+.dasboard-m1b1-col2:hover{
+    background-color: wheat;
+    color: green;
+}
+.dasboard-m1b1-col2:hover .dasboard-m1b1-col2-Icon{
+    color: black;
+}
+.dasboard-m1b1-col2-Icon{
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    font-size: 70px;
+    color: #ffb245d2;
+}
+.dasboard-m1b1-col3{
+    margin: 0px 10px;
+    background-color: rgba(255, 255, 255, 0.853);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+    font-size: 15px;
+}
+.dasboard-m1b1-col3:hover{
+    background-color: wheat;
+    color: green;
+}
+.dasboard-m1b1-col3:hover .dasboard-m1b1-col3-Icon{
+    color: black;
+}
+.dasboard-m1b1-col3-Icon{
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    font-size: 70px;
+    color: #ffb245d2;
+}
+.dasboard-m1b1-row2{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 98%;
+    margin: 10px auto;
+    border-radius: 10px;
+    /* background-color: white; */
+}
+.dasboard-m1b1-row2-col1{
+    width: 60%;
+    background-image: url(../../../public/Media/pic5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.dasboard-m1b1-row2-col2{
+    width: 60%;
+    background-image: url(../../../public/Media/pic6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.dasboard-m1b1-row3{
+    /* border: 2px solid red; */
+    width: 98%;
+    height: 280px;
+    margin: 0px auto;
+}
+.dasboard-m1b1-row3-col1{
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url(../../../public/Media/pic7.jpg);
+    background-size: contain;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px){
+    .dasboard-m1b1-col1-Icon{
+        left: 10px;
+        top: 20px;
+        font-size: 40px;
+    }
+    .dasboard-m1b1-col2-Icon{
+        left: 10px;
+        top: 20px;
+        font-size: 40px;
+    }
+    .dasboard-m1b1-col3-Icon{
+        left: 10px;
+        top: 20px;
+        font-size: 40px;
+    }
+}   
+
+@media screen and (min-width: 0px) and (max-width: 426px){
+    .dasboard-m1b1-col1-Icon{
+        display: none;
+    }
+    .dasboard-m1b1-col2-Icon{
+        display: none;
+    }
+    .dasboard-m1b1-col3-Icon{
+        display: none;
+    }
+}

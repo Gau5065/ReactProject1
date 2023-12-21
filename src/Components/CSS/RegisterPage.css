@@ -1,0 +1,166 @@
+.register-mainbox1{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../../public/Media/pic1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-m1b1{
+    /* border: 2px solid red; */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 30%;
+    height: 80%;
+    background-color: #ffb345;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.register-m1b11{
+    cursor: pointer;
+    border: 2px solid white;
+    width: 90%;
+    height: 70%;
+    /* border-radius: 100%; */
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    background-image: url(../../../public/Media/pic2.gif);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    position: relative;
+    transition-duration: 0.5s;
+}
+.register-m1b11:hover{
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 100%;
+    transition-duration: 0.5s;
+}
+.register-m1b11sb1{
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    height: 40%;
+    background-image: url(../../../public/Media/pic3.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.register-m1b11:hover .register-m1b11sb1{
+    left: 0;
+}
+.register-m1b12{
+    /* border: 2px solid red; */
+    width: 82%;
+    margin-bottom: 80px;
+}
+.col{
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.col:hover{
+    background-color: white;
+    color: red;
+}
+.col:hover .register-icon{
+    animation-name: login-n1;
+    animation-duration: 0.4s;
+}
+.register-m1b2{
+    /* border: 2px solid red; */
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+    width: 30%;
+    height: 80%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    background-color: white;
+}
+.register-inp1{
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background-color: #b4d2fc;
+}
+.register-inp1:focus{
+    outline: none;
+    border-bottom: 2px solid green;
+}
+.register-inp1::placeholder{
+    color: black;
+}
+.register-inp2{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: #b4d2fc;
+}
+.register-rbtn1{
+    cursor: pointer;
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: #81bcfd;
+    border: none;
+    border-radius: 10px;
+}
+.register-rbtn1:hover{
+    background-color: #ffb345;
+}
+.register-lbtn1{
+    font-size: 14px;
+    padding: 0;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #81bcfd;
+}
+.register-lbtn1:hover{
+    color: #ffb345;
+    border-bottom: 1px solid #ffb345;
+}   
+
+@media screen and (min-width: 0px) and (max-width: 768px){
+    .register-m1b1{
+        display: none;
+    }
+    .register-m1b2{
+        width: 70%;
+        border-radius: 15px;
+    }
+    .register-m1b2{
+        height: 90%;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 426px){
+    .register-m1b2{
+        width: 90%;
+    }
+}

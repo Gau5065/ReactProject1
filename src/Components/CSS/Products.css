@@ -1,0 +1,396 @@
+.AddProduct-Btn{
+    padding: 20px 10px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #81bcfd;
+    border: none;
+    font-weight: bold;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    z-index: 2;
+}
+.AddProduct-Btn:hover{
+    background-color: #ffb345;
+    color: black;
+}
+.AddProduct-mainbox1{
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    background-color: #81bdfdb5;
+    padding: 30px 0px;
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+.AddProduct-Inp{
+    width: 80%;
+    text-align: center;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: rgba(245, 222, 179, 0.636);
+    border-bottom: 2px solid green;
+}
+.AddProduct-Inp:focus{
+    outline: none;
+}
+.AddProduct-Select{
+    width: 80%;
+    text-align: center;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(245, 222, 179, 0.581);
+    border-bottom: 2px solid green;
+}
+.AddProduct-Option{
+    background-color: #81bdfd77;
+    color: black;
+}
+.AddProduct-Btn1{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #ffb345;
+}
+.AddProduct-Btn1:hover{
+    background-color: #81bcfd;
+    color: black;
+}
+.AddProductBack-Btn{
+    position: fixed;
+    top: 20px;
+    left: 100px;
+    background-color: #ffb345;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.AddProductBack-Btn:hover{
+    background-color: #81bcfd;
+    color: black;
+}
+.ProductList-Mainbox1{
+    background-color: rgba(245, 222, 179, 0.66);
+    border-radius: 10px;
+    width: 97%;
+    height: 87%;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.ProductList-Mainbox1::-webkit-scrollbar{
+    display: none;
+}
+.product-card{
+    cursor: pointer;
+    /* border: 2px solid red; */
+    width:300px;
+    height: 350px;
+    margin: 20px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #ffb345;
+}
+.product-card:hover{
+    background-color: #81bcfd;
+}
+.product-img{
+    /* border: 2px solid red; */
+    margin: 10px auto;
+    width: 95%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: white;
+}
+.product-detail{
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 32%;
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+/* .discount-badge{
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    position: absolute;
+    top: -35px;
+    right: -35px;
+} */
+.product-imgUrl{
+    object-fit: cover;
+}
+.Product-Name{
+    margin: 0px;
+    /* border: 2px solid red; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.Product-DiscountedPrice{
+    margin: 0px;
+    /* border: 2px solid red; */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.Product-Price{
+    margin: 0px;
+    /* border: 2px solid red; */
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    text-decoration: line-through;
+    padding-right: 10px;
+    position: relative;
+}
+.RateStar1{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #ffb345;
+}
+.RateStar2{
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    color: #ffb345;
+}
+.RateStar3{
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    color: #ffb345;
+}
+.RateStar4{
+    position: absolute;
+    top: 5px;
+    left: 65px;
+    color: #ffb345;
+}
+.RateStar5{
+    position: absolute;
+    top: 5px;
+    left: 85px;
+    color: #ffb345;
+}
+
+.ribbon {
+    margin: 100px auto;
+    width: 110px;
+    height: 110px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+    top: -100px;
+    right: 0;
+  }
+  .ribbon span {
+    width: 150px;
+    height: 34px;
+    top: 20px;
+    right: -40px;
+    position: absolute;
+    display: block;
+    background: #ff0000ac;
+    color: #333;
+    font-family: arial;
+    font-size: 18px;
+    color:white;
+    text-align: center;
+    line-height: 34px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+  }
+  .EditProduct-mainbox1{
+    /* border: 2px solid red; */
+    width: 50%;
+    /* height: 80%; */
+    padding-bottom: 20px;
+    margin: 70px auto;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #81bdfd9a;
+    border-radius: 10px;
+  }
+  .EditProduct-BackBtn{
+    position: fixed;
+    top: 20px;
+    left: 100px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #ffb345;
+}
+.EditProduct-BackBtn:hover{
+    background-color: #81bcfd;
+    color: black;
+}
+.EditProduct-Inp{
+    width: 80%;
+    text-align: center;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: rgba(245, 222, 179, 0.636);
+    border-bottom: 2px solid green;
+}
+.EditProduct-Inp:focus{
+    outline: none;
+}
+.EditProduct-Select{
+    width: 80%;
+    text-align: center;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(245, 222, 179, 0.581);
+    border-bottom: 2px solid green;
+}
+.EditProduct-Option{
+    background-color: #81bdfd77;
+    color: black;
+}
+.EditProduct-Btn1{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #ffb345;
+}
+.EditProduct-Btn1:hover{
+    background-color: #81bcfd;
+    color: black;
+}
+.ProductList-NavBar{
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    width: 97%;
+    height: 80px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.786);
+}
+.NavBar1{
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavBar2{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavBar3{
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavBar2-Inp2{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.536);
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.NavBar2-Inp2::placeholder{
+    color: black;
+}
+.NavBar2-Inp1{
+    border: none;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.52);
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+.NavBar2-Inp3{
+    border: none;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.52);
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+@media screen and (min-width: 0px) and (max-width: 768px){
+    .AddProductBack-Btn{
+        top: 90px;
+        left: 80px;
+    }
+    .AddProduct-Btn{
+        right: 40px;
+        bottom: 40px;
+    }
+    .EditProduct-BackBtn{
+        top: 80px;
+        left: 30px;
+    }
+    .EditProduct-mainbox1{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 426px){
+    .AddProductBack-Btn{
+        top: 80px;
+        left: 50px;
+    }
+    .AddProduct-Btn{
+        right: 20px;
+        bottom: 20px;
+    }
+    .EditProduct-BackBtn{
+        left: 20px;
+    }
+    .EditProduct-mainbox1{
+        width: 90%;
+    }
+}
